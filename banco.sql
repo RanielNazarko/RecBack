@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS biblioteca;
+
+USE biblioteca;
+
+CREATE TABLE IF NOT EXISTS livros (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    titulo VARCHAR(150) NOT NULL,
+    autor VARCHAR(150) NOT NULL
+)
